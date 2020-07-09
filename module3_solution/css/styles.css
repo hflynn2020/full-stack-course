@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+#main-section {
+    height: 1000px;
+    background-color: grey;
+    overflow: hidden;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    margin-top: -10px;
+}
+
+h2 {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+body {
+    font-family: sans-serif;
+    color: black;
+}
+
+#header-nav {
+    background-color: grey;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-toggle {
+    border: black solid 2px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+li {
+    border: solid 1px black;
+    margin: 5px;
+}
+
+li:nth-child(1) {
+    background-color: green;
+}
+
+li:nth-child(2) {
+    background-color: white;
+}
+
+li:nth-child(3) {
+    background-color: red;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+   border-color: white;
+}
